@@ -1,0 +1,122 @@
+*{
+    margin:0%;
+}
+body{
+    background-color:rgb(248, 222, 226);
+}
+.banner{
+    background-image: url("../img/banner3.jpeg");
+    display: grid;
+    grid-template-columns: 1100px 10px ;
+    opacity: 1;
+}
+.nombre{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-family: fantasy; 
+    font-size: 70px;
+    color:#b6adaa;
+}
+.subnombre{
+    position: absolute;
+    top:85px;
+    left: 25px;
+    font-family: fantasy;
+    font-size: 130px;
+    color: rgb(245, 169, 182);
+    text-shadow: 2px 2px 5px#999391;
+}
+.menu{
+    background-color: #b6adaa  ;
+    display: flex;
+    justify-content: space-around;
+    
+    }
+.enlace:link, .enlace:visited {
+    background-color: #b6adaa ;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.enlace:hover, .enlace:active {
+    background-color: pink;
+    color: white;
+}
+.piedepagina{
+    background-color: #b6adaa  ;
+    display: flexbox;
+    justify-content: space-around;
+    }
+.pie2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #b6adaa  ;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.login{
+    color: white;
+    text-align: end;
+}
+.login:link, .login:visited {
+    background-color: #b6adaa ;
+    color: white;
+    padding: 15px 25px;
+    text-align: end;
+    text-decoration: none;
+    display: inline-block;
+  }
+.login:hover, .login:active {
+    background-color: rgb(212, 89, 109);
+    color: white;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
